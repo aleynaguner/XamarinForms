@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MobileW_01.Page1"
+    BackgroundColor="Aquamarine"
+    >
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android">
+                0,0,0,0
+            </On>
+            <On Platform="iOS">
+                0,40,0,0
+            </On>
+        </OnPlatform>
+    </ContentPage.Padding>
+
+
+    <StackLayout>
+        <Label x:Name="myLabel" Text="Hello Friend" FontSize="25"/>
+        <Entry Placeholder="Enter your name"></Entry>
+    </StackLayout>
+
+
+</ContentPage>

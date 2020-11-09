@@ -1,0 +1,14 @@
+/Users/asecer79/Projects/MobileW_01/MobileW_01/bin/Debug/netstandard2.0/MobileW_01.deps.json
+/Users/asecer79/Projects/MobileW_01/MobileW_01/bin/Debug/netstandard2.0/MobileW_01.dll
+/Users/asecer79/Projects/MobileW_01/MobileW_01/bin/Debug/netstandard2.0/ref/MobileW_01.dll
+/Users/asecer79/Projects/MobileW_01/MobileW_01/bin/Debug/netstandard2.0/MobileW_01.pdb
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/Page1.xaml.g.cs
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/MobileW_01.AssemblyInfoInputs.cache
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/MobileW_01.AssemblyInfo.cs
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/MobileW_01.csproj.CoreCompileInputs.cache
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/MobileW_01.dll
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/ref/MobileW_01.dll
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/MobileW_01.pdb
+/Users/asecer79/Projects/MobileW_01/MobileW_01/obj/Debug/netstandard2.0/MobileW_01.csprojAssemblyReference.cache
