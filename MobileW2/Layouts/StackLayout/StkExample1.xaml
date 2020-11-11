@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileW2.Layouts.StackLayout.StkExample1"
+
+BackgroundColor="Black" Padding="20">
+
+    <!--<StackLayout
+    Padding="40"
+    BackgroundColor="Yellow"
+    Orientation="Horizontal"
+    HorizontalOptions="Center"
+    VerticalOptions="Start"
+    Spacing="40"
+             >
+
+
+        <Label Text="label1" FontSize="20" BackgroundColor="Blue"/>
+        <StackLayout>
+            <Label Text="label1" FontSize="20" BackgroundColor="Blue"/>
+            <Label Text="label1" FontSize="20" BackgroundColor="Blue"/>
+        </StackLayout>
+        <Label Text="label1" FontSize="20" BackgroundColor="Blue"/>
+    </StackLayout>-->
+
+    <StackLayout BackgroundColor="Yellow" Padding="25" >
+        <Button Text="Home" FontSize="40"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                />
+        <Button Text="About" FontSize="40" HorizontalOptions="End"/>
+        <StackLayout Orientation="Horizontal" BackgroundColor="Aquamarine">
+
+            <Button Text="Basket" FontSize="20" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Profile" FontSize="20" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+
+    </StackLayout>
+
+
+
+</ContentPage>

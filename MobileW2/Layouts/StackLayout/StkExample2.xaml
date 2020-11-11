@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileW2.Layouts.StackLayout.StkExample2"
+             BackgroundColor="#00b0ff" Padding="5"
+             >
+
+    <StackLayout>
+        <StackLayout  VerticalOptions="CenterAndExpand">
+
+            <Label Text="Welcome my App" FontSize="40" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                <Button Text="Login" CornerRadius="10" BackgroundColor="#ef6c00" WidthRequest="100"/>
+                <Button Text="Register" CornerRadius="10" WidthRequest="100" BackgroundColor="#ef6c00
+"/>
+            </StackLayout >
+            
+        </StackLayout>
+
+        <Label HorizontalOptions="End" Text="All Rights Resered" TextColor="White"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW2.MainPage">
+    <StackLayout>
+
+        <Entry x:Name="txtNumber1" Placeholder="First Number"/>
+
+        <Entry x:Name="txtNumber2" Placeholder="Second Number"/>
+
+        <Label x:Name="lblResult" Text="...."/>
+
+        <Button x:Name="button1" BackgroundColor="Gray" Text="Calculate" Clicked="Calculate_Button_Clicked" />
+
+    </StackLayout>
+</ContentPage>

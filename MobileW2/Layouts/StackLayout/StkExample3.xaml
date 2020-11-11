@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileW2.Layouts.StackLayout.StkExample3">
+<ScrollView>
+    <StackLayout Orientation="Vertical" Padding="50,40,50,10">
+        <StackLayout>
+
+            <Image HeightRequest="300" Source="https://cdn.dsmcdn.com//ty16/product/media/images/20201008/17/14203986/91598295/0/0_org.jpg"
+                />
+            <Label
+                Text="AppleWatch Se Gps 44 Mm Uzay Grisi Alüminyum Kasa Ve Siyah Spo" FontSize="10"/>
+
+            <Label Text="2.889,00" TextColor="Gray"/>
+            <Button Text="İndirimli: 2.860,53 TL" BorderColor="Red"
+                    BorderWidth="2"
+                    />
+
+        </StackLayout>
+        <BoxView BackgroundColor="Gray" HeightRequest="1" />
+
+         <StackLayout>
+
+            <Image HeightRequest="300" Source="https://cdn.dsmcdn.com//ty15/product/media/images/20201008/17/14206017/91600819/0/0_org.jpg"
+                />
+            <Label
+                Text="Apple Watch Se Gps 44 Mm Altın Rengi Alüminyum Kasa Ve Kum Pembesi Spor Kordon MYDR2TU/A" FontSize="10"/>
+
+            <Label Text="2.600,00" TextColor="Gray"/>
+            <Button Text="İndirimli: 2.300,53 TL" BorderColor="Red"
+                    BorderWidth="2"
+                    />
+
+        </StackLayout>
+        <BoxView BackgroundColor="Gray" HeightRequest="1" />
+
+        <StackLayout>
+
+            <Image HeightRequest="300" Source="https://cdn.dsmcdn.com//ty12/product/media/images/20200915/13/10703930/86573614/0/0_org.jpg"
+                />
+            <Label
+                Text="Apple Watch Se Gps 44 Mm Altın Rengi Alüminyum Kasa Ve Kum Pembesi Spor Kordon MYDR2TU/A" FontSize="10"/>
+
+            <Label Text="2.600,00" TextColor="Gray"/>
+            <Button Text="İndirimli: 2.300,53 TL" BorderColor="Red"
+                    BorderWidth="2"
+                    />
+
+        </StackLayout>
+        <BoxView BackgroundColor="Gray" HeightRequest="1" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
