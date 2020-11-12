@@ -1,0 +1,16 @@
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\bin\Debug\netstandard2.0\MobileW3.deps.json
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\bin\Debug\netstandard2.0\MobileW3.dll
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\bin\Debug\netstandard2.0\ref\MobileW3.dll
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\bin\Debug\netstandard2.0\MobileW3.pdb
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MobileW3.csprojAssemblyReference.cache
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\Grid.xaml.g.cs
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\GridEx1.xaml.g.cs
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MobileW3.AssemblyInfoInputs.cache
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MobileW3.AssemblyInfo.cs
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MobileW3.csproj.CoreCompileInputs.cache
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MobileW3.dll
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\ref\MobileW3.dll
+C:\Users\asecerMonster\Desktop\MobileW3\MobileW3\MobileW3\obj\Debug\netstandard2.0\MobileW3.pdb

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW3.Relative">
+
+    <RelativeLayout>
+
+        <BoxView BackgroundColor="Red" x:Name="BoxView1"
+                 RelativeLayout.WidthConstraint=
+                 "{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.5}"
+                 RelativeLayout.HeightConstraint=
+                 "{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.2}"
+                 />
+
+        <BoxView BackgroundColor="Blue" x:Name="BoxView2"
+                 RelativeLayout.HeightConstraint=
+                 "{ConstraintExpression Type=RelativeToView,ElementName=BoxView1, Property=Height,Factor=2}"
+
+                 RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,ElementName=BoxView1, Property=Height,Factor=.5}"
+                 />
+
+        <BoxView BackgroundColor="Black" x:Name="BoxView3"
+                 RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToView,ElementName=BoxView2, Property=Height,Factor=1}"
+
+                 RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,ElementName=BoxView2, Property=Width,Factor=3}"
+        
+                 />
+
+        <Label Text="Xamarin.Forms" FontSize="25" x:Name="Label1"/>
+
+    </RelativeLayout>
+</ContentPage>

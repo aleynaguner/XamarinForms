@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW3.GridEx1" Padding="5" BackgroundColor="SandyBrown">
+
+    <Frame  CornerRadius="15" HasShadow="False">
+        <Grid   BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Register an Account" FontSize="20"/>
+            <Frame BackgroundColor="Firebrick" Padding="0" Margin="0" Grid.Row="1" Grid.ColumnSpan="2"  CornerRadius="3">
+                <Label Text="Warnings" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            </Frame>
+            <Label Grid.Row="2" Grid.Column="0" Text="User Name" FontSize="20"/>
+            <Label Grid.Row="2" Grid.Column="1" Text="EMail" FontSize="20"/>
+
+            <Entry Grid.Row="3" Grid.Column="0"  BackgroundColor="AliceBlue"/>
+            <Entry Grid.Row="3" Grid.Column="1"  BackgroundColor="AliceBlue"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Text="Password" FontSize="20"/>
+            <Label Grid.Row="4" Grid.Column="1" Text="Confirm Password" FontSize="20"/>
+
+            <Entry Grid.Row="5" Grid.Column="0"  BackgroundColor="AliceBlue"/>
+            <Entry Grid.Row="5" Grid.Column="1"  BackgroundColor="AliceBlue"/>
+
+
+
+            <StackLayout Grid.Row="7" Grid.ColumnSpan="2" VerticalOptions="EndAndExpand">
+                <Button Text="Register" TextColor="White" BackgroundColor="#007BFF" CornerRadius="10"/>
+                <Label Text="Login Page" FontSize="15" HorizontalOptions="Center" />
+                <Label Text="Forgot Password" FontSize="15" HorizontalOptions="Center" />
+
+            </StackLayout>
+
+        </Grid>
+    </Frame>
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mobileW3="clr-namespace:MobileW3;assembly=MobileW3"
+             x:Class="MobileW3.Absolute">
+
+    <AbsoluteLayout>
+
+        <Image Source="https://i2.cnnturk.com/i/cnnturk/75/630x0/5c6e4239ae78491afc3c2b88.jpg"
+               RotationY="35"
+
+               AbsoluteLayout.LayoutBounds="0,0,1,.50"
+               AbsoluteLayout.LayoutFlags="All"
+               />
+
+        <Label Text="Ronaldo" FontSize="38" VerticalTextAlignment="Center" BackgroundColor="Aquamarine" Rotation="-13"
+               AbsoluteLayout.LayoutBounds="0.3,.44,250,50"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+        />
+
+        <Label Text="Ahmet how are you" FontSize="38" VerticalTextAlignment="Center" BackgroundColor="Aquamarine" 
+       AbsoluteLayout.LayoutBounds="0,0,250,50"
+       />
+
+        <Label Text="How is your course?" FontSize="38" VerticalTextAlignment="Center" BackgroundColor="Brown" Opacity=".5"
+       AbsoluteLayout.LayoutBounds="50,35,250,50"
+       AbsoluteLayout.LayoutFlags="None"
+       />
+
+        <Label Text="Mustafa how are you" FontSize="38" VerticalTextAlignment="Center" BackgroundColor="Crimson" 
+       AbsoluteLayout.LayoutBounds="1,1,.65,.06"
+       AbsoluteLayout.LayoutFlags="All"
+/>
+
+        <Label Text="How is your course?" FontSize="38" VerticalTextAlignment="Center" BackgroundColor="DarkOliveGreen" Opacity=".8"
+       AbsoluteLayout.LayoutBounds="0,.93,250,50"
+       AbsoluteLayout.LayoutFlags="PositionProportional"
+/>
+
+
+
+    </AbsoluteLayout>
+
+</ContentPage>
