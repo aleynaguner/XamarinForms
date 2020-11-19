@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW06.App">
+    <Application.Resources>
+       <ResourceDictionary>
+           <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeRegular">
+                <On Platform="Android" Value="Font Awesome 5 Standard.otf#Font Awesome 5 Standard"/>
+                <On Platform="iOS" Value="Font Awesome 5 Standard"/>
+            </OnPlatform>
+       </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW06.FontAwesomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="&#xf0f3;" TextColor="Red" FontFamily="{StaticResource FontAwesomeRegular}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
