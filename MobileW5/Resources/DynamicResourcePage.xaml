@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW05.Resources.DynamicResourcePage">
+
+
+    <ContentPage.Resources>
+
+        <Color x:Key="SaveButtonColor">Green</Color>
+        <Color x:Key="FocusedColor">White</Color>
+
+    </ContentPage.Resources>
+
+
+    <StackLayout>
+        <Label Text="{DynamicResource Data}" TextColor="{DynamicResource MyColor}"  FontSize="25" />
+        <Label Text="{DynamicResource Data}" TextColor="{DynamicResource MyColor1}"  FontSize="25" />
+
+        <Button x:Name="SaveButton"   Text="Invert Color" BackgroundColor="{DynamicResource SaveButtonColor}"
+                Clicked="SaveButton_OnClicked"
+                
+                />
+
+
+        <Entry x:Name="TxtFirsName" Text="{StaticResource Data}"
+               BackgroundColor="{DynamicResource FocusedColor}"
+               Focused="TxtFirsName_OnFocused" Unfocused="TxtFirsName_OnUnfocused" />
+
+    </StackLayout>
+
+</ContentPage>

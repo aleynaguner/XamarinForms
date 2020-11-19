@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW05.Resources.StyleLocalLevelPage">
+
+   <ContentPage.Resources>
+       <Style x:Key="ButtonStyle" TargetType="Button">
+           <Setter Property="BackgroundColor" Value="Gray"/>
+
+       </Style>
+
+    </ContentPage.Resources>
+
+
+
+
+    <StackLayout>
+        <Label Style="{DynamicResource LabelStyle1}"/>
+        <Label Style="{DynamicResource LabelStyle3}"/>
+        <Label />
+        <Label/>
+        <Button Style="{StaticResource ButtonStyle}" Text="Save" />
+    </StackLayout>
+</ContentPage>

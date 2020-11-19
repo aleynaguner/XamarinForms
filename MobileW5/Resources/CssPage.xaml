@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW05.Resources.CssPage">
+
+    <ContentPage.Resources>
+
+        <!--<StyleSheet Source="Resources/style.css"/>-->
+
+        <!--<StyleSheet>
+            <![CDATA[
+                
+                ^contentpage{
+                  background-color:black;
+                }
+                   
+                stacklayout {
+                        background-color:red;
+                        margin:30;
+                     
+                }
+               
+                .labelStyle1 {
+                        background-color:blue;
+                        color:white;
+                        padding:50;
+                        margin:5;
+                }
+            
+                .labelStyle1 {
+                    background-color:blue;
+                    color:white;
+                    padding:50;
+                    margin:5;
+                }
+                
+                #buttonShape{
+                    background-color:green;
+                    border-radius: 25;
+                    padding:20;
+                }
+            
+            ]]>
+        </StyleSheet>-->
+
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Label StyleClass="labelStyle1"  Text="Welcome to Xamarin.Forms!"/>
+        <Label StyleClass="labelStyle2"    Text="Welcome to Xamarin.Forms!"/>
+
+        <Button  StyleId="buttonShape"  
+                 Text="Welcome to Xamarin.Forms!" />
+    </StackLayout>
+
+</ContentPage>

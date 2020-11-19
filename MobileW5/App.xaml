@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileW05.App">
+
+
+    <Application.Resources>
+
+      
+
+        <!--<ResourceDictionary  Source="Resources/Templates/DarkModeTemplate.xaml"/>
+
+        <Color x:Key="MyColor">Yellow</Color>
+
+        <Color x:Key="MyColor1">Red</Color>
+
+        <x:String x:Key="Data">Hello World</x:String>
+
+        <Color x:Key="SaveButtonColor">Green</Color>
+
+        <Style TargetType ="Label">
+            <Setter Property="TextColor" Value="Red"/>
+            <Setter Property="Text" Value="Hello World"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="BackgroundColor" Value="GreenYellow"/>
+            <Setter Property="Padding" Value="30"/>
+        </Style>
+
+        <Style x:Key="LabelStyle2"  TargetType ="Label">
+            <Setter Property="TextColor" Value="DarkGreen"/>
+            <Setter Property="Text" Value="Hello World 2"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="BackgroundColor" Value="BurlyWood"/>
+            <Setter Property="Padding" Value="25"/>
+        </Style>
+
+        <Style x:Key="LabelStyle3" BasedOn="{StaticResource LabelStyle2}"  TargetType ="Label">
+            <Setter Property="Margin" Value="25"/>
+        </Style>-->
+
+
+    </Application.Resources>
+
+
+</Application>
